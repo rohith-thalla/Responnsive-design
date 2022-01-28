@@ -1,0 +1,41 @@
+.center {
+  text-align: center;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 100rem;
+  margin: 0 auto;
+  gap: 2rem;
+}
+.box-images {
+  height: 50rem;
+}
+.box {
+  background-color: #f2f8f8;
+  padding: 4rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.box:hover {
+  background-color: #dde4e4;
+  transition: ease-in;
+}
+.box-primary {
+  font-size: 2.2rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+/* cards */
+.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2f8f8;
+  padding: 4rem;
+  border-radius: 0.5rem;
+  font-size: 1.6rem;
+}
+.cards:hover {
+  background-color: #dde4e4;
+}
